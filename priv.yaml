@@ -2,9 +2,8 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: kube-proxy-monitor
-  namespace: kube-system
   labels:
-    app: kube-proxy-mon
+    app: kube-proxy-monitor
 spec:
   hostNetwork: true
   hostPID: true
